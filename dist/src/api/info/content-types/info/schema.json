@@ -1,0 +1,31 @@
+{
+    "kind": "singleType",
+    "collectionName": "infos",
+    "info": {
+        "singularName": "info",
+        "pluralName": "infos",
+        "displayName": "Info",
+        "description": ""
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "attributes": {
+        "Email": {
+            "type": "email",
+            "required": true
+        },
+        "Phone": {
+            "type": "string",
+            "required": true
+        },
+        "Address": {
+            "type": "string",
+            "required": true
+        },
+        "Availability": {
+            "type": "string",
+            "required": true
+        }
+    }
+}
